@@ -1,0 +1,247 @@
+python 3.11.x
+
+python 3.9
+
+
+Pycharm Community Edition (open source)
+----------------------------------------
+
+---------------------------------------------------------------
+
+python SDK
+
+IDLE - Integrated Development Environment
+
+Shell - Interactive Environment
+
+
+---------------------------------------------------------------
+
+Versions
+--------
+2.x and 3.x
+------------
+
+2.x
+---
+print "hello"
+
+
+3.x
+---
+print("hello")
+
+
+Flavours
+---------
+1. CPython =		currently using
+
+2. Jython	=		python code to Java
+
+3. Iron Python = Dotnet Lib
+
+
+Python is a scripting tool
+--------------------------
+1. Interpreted
+
+2. data is loosly coupled
+	
+	implicit decleration
+
+	a = 10
+
+	a = "hello"
+
+
+Two operators that are overloaded
+---------------------------------
+1. +		- 	addition and concatenation	
+2. *		-	multiplication and print a string n number of times
+
+
+Numbers
+-------
+2.x datatype called long
+
+23354756786767843523424L
+
+
+Libraries as modules
+
+os module
+
+-------------------
+
+module name : imp
+function    : reload
+
+from imp import reload
+
+
+-------------------------------------
+
+#!  - shebang - specify the of python executable
+
+
+Indentation
+-----------
+
+def fun():
+
+	print("hello world")
+	print("hello world")
+	print("hello world")
+	print("hello world")
+
+	for i in range(1, 25):
+		
+		if i % 2 == 0:		
+			
+			print(i)
+			print("if condition")
+		
+		print("for loop")
+	
+	print("function fun")
+
+
+print("main module")
+
+
+Comments
+========
+
+# is used to create comments in python
+
+we can only create a single line comment with #
+
+
+
+Strings
+--------
+single line strings are stored in " " or ' '
+		
+		
+multiple line strings are stored in  """  """  or  '''  '''
+
+
+"""
+
+this is the first line
+this is the second line
+this is the third line
+
+
+"""
+
+"hello world"
+
+docstrings
+----------
+this is on top of every function - it gives info about
+
+
+
+Primitive Datatypes in python
+------------------------------
+1. Numbers
+	a. integers
+	b. float
+	c. complex numbers
+
+2. Strings
+
+3. Boolean
+
+
+bitwise operators
+-----------------
+or
+--
+5 = 101 
+3 = 011
+	 ----	
+	 111   -  7
+   ----
+
+and
+---
+5 = 101
+3 = 011
+    ---
+    001		-	1
+    ---
+
+xor
+5 = 101
+3 = 011
+    ---
+    110		-  6
+    ---
+
+<<
+---
+5 = 101  << => 1010
+
+8 = 1000 << => 10000 => 16
+
+
+5 = 101  << => 10100 => 20
+
+
+control structures and Loops
+----------------------------
+
+contol sturctures
+------------------
+1. if condition
+
+
+Loops
+-----
+1. for loop
+-----------
+foreach loop => relies on a collection of a object
+
+range(10) = [0...<10]
+
+range(1, 10) = 1...9
+
+range(1, 11) = 1..10
+
+range(1, 11, 2) = 1, 3, 5, 7, 9
+
+range(10, 0, -1) = 10, 9....1
+
+
+
+2. while loop
+
+
+
+print
+-----
+print(data, sep=, end="\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
