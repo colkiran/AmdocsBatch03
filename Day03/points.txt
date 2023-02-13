@@ -1,0 +1,50 @@
+Dictionary
+----------
+are also called as associative arrays
+
+	    0    1    2    3    4  
+l1 = ['a', 'b', 'c', 'd', 'e']
+
+
+d1 = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+keys = 0, 1, 2, 3, 4					=>	 user defined
+
+value = 'a', 'b', 'c', 'd', 'e'
+
+
+1. all keys in a dictionary should be unique
+
+2. unordered collection 
+
+3. dictionary are enclosed in {  }
+
+
+dictionary manipulation functions
+---------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+Sets
+----
+1. set are unordered collection
+2. elements of a set is unique
+3. sets are not subscriptable
+4. sets are mutable
+5. sets are enclosed in {}
+
+
+Functions
+---------
+def fun():
+	print()
+
+
+
+
+
+
+
+
+
+
